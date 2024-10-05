@@ -51,7 +51,13 @@ createNote = do
 
 createJournalEntry :: IO ()
 createJournalEntry = do
-  putStrLn "Create journal entry"
+  currentTime <- getZonedTime
+  let time = formatTime defaultTimeLocale "%Y-%m-%d_%H:%M:%S" currentTime
+  let fileName = time ++ ".md"
+  -- getEnv
+  -- get from config file
+  callCommand ("cp ~/.config/nvim_notes/templates/template.journal.md " ++ "~/nn/inbox/" ++ fileName)
+  callCommand ("nvim " ++ "~/nn/inbox/" ++ fileName)
 
 createTemplateEntry :: IO ()
 createTemplateEntry = do
