@@ -1,6 +1,7 @@
 # NVIM Notes (NN)
 
 ![Production](https://github.com/GoldFoxDev/Nvim-Notes/actions/workflows/haskell.yml/badge.svg)
+![Code Climate](https://codeclimate.com/github/GoldFoxDev/Nvim-Notes/badges/gpa.svg)
 
 Author: Lucas Pichette
 
