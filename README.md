@@ -1,5 +1,7 @@
 # NVIM Notes (NN)
 
+![Production](https://github.com/GoldFoxDev/Nvim-Notes/actions/workflows/haskell.yml/badge.svg)
+
 Author: Lucas Pichette
 
 ## Frontmatter
